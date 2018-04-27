@@ -1,0 +1,29 @@
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display:inline-block;
+    border:1px solid;
+    box-sizing:border-boxl;
+}
+button {
+  background-color:#4CAF50;
+  color:white;
+  padding:14px 20px;
+  margin:8px;
+  border:none;
+  cursor:pointer;
+  width:100%;
+  opacity:0.6;
+}
+btncancel{
+    width:auto;
+    border:24px 12px;
+}
+span.password{
+    float:right;
+    padding-top:16px;
+}
+.card{
+    background-color:rgb(141, 95, 95);
+}

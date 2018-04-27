@@ -1,0 +1,26 @@
+<div class="card">
+  <meta name="viewport" content="width=device-width, initial-scale=2">
+  <form (ngSubmit)='submitThisUser()' class="animated">
+    <div class="container-img">
+      <img src="./assets/images/" alt="Avatar" class="avatere">
+    </div>
+
+    <div class="container">
+      <label for="name">
+        <b>Github Username</b>
+      </label>
+      <input type="text" placeholder="Enter Github Username..." id="username" [(ngModel)]="username" name="username" required>
+
+        
+
+        <button type="submit">Search</button>
+
+
+        <!-- <div class="container-f">
+          <button type="button" class="btncancel">Cancel</button>
+          <span class="password">Forgot<a href="id">Password?</a>
+           </span>
+        </div> -->
+      </div>
+  </form>
+</div>
